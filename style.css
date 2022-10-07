@@ -108,7 +108,7 @@ a.nav-item:hover{
   justify-content: space-evenly;
   align-items: center;
   margin-left: 30rem;
-  margin-top: -15rem;
+  margin-top: -10rem;
 }
 
 .dance-img>img{
@@ -270,4 +270,10 @@ margin-left: 20rem;
     margin: 3rem 0rem 3rem 0;
     padding: 0.5rem;
   }
+  }
+  @media only screen and (min-width:1440px) {
+    .features-section{
+      margin-top: -15rem;
+      margin-left: 37rem;
+    }
   }
